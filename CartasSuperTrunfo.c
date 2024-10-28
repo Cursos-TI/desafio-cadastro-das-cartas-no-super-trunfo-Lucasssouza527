@@ -38,7 +38,6 @@ scanf(" %s",&Cidade1);
 printf("cidade: %s\n",Cidade1);
 printf("\n");
 
-
 printf("Digite a população da Cidade:");
 scanf(" %d",&Populacao);
 fflush(stdin);
@@ -52,7 +51,6 @@ printf("Area Km²: %f\n", Area);
 printf("\n");
 
 densidade=Populacao/Area;
-
 
 printf("Digite o PIB:");
 scanf("%f",&PIB);
@@ -138,6 +136,7 @@ printf("\n");
 //confirmação do cadrasto da Segunda cidade!
 printf("Segunda Cidade concluida com sucesso!\n");
 printf("\n");
+
 
 //Terceira cidade a ser casdastrada pelo Usuario.
 printf("Terceira Cidade!\n");
@@ -377,6 +376,12 @@ printf("\n");
 //confirmação do cadrasto da Segunda cidade!
 printf("Segunda Cidade concluida com sucesso!\n");
 printf("\n");
+
+
+printf("digite o codigo da Carta que voce quer comparar:");
+printf("cartas %s", Carta);
+
+
 
 //Terceira cidade a ser casdastrada pelo Usuario.
 printf("Terceira Cidade!\n");
